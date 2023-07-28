@@ -1,0 +1,11 @@
+<div class="card shadow flex items-center center">
+  <div class="card-body">
+    <h2 class="card-title">
+      <%= link_to 'Visit link', @link.url, class: 'link link-primary
+' %>
+    </h2>
+    <p class="inline-block">URL: <%= @link.url %>
+    </p>
+    <p class="inline-block">Slug: <%= @link.slug %></p>
+  </div>
+</div>
