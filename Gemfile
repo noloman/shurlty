@@ -62,3 +62,5 @@ group :development do
   # gem 'spring'
   gem 'addressable'
 end
+
+gem "tailwindcss-rails", "~> 2.0"

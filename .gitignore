@@ -160,3 +160,6 @@ build-iPhoneSimulator/
 # .pnp.*
 
 # End of https://www.toptal.com/developers/gitignore/api/rails,yarn,visualstudiocode,ruby
+
+/app/assets/builds/*
+!/app/assets/builds/.keep
