@@ -1,5 +1,4 @@
 class Link < ApplicationRecord
-  include Rails.application.routes.url_helpers
   require 'addressable/uri'
   validates_presence_of :url, :slug
   validates_uniqueness_of :slug
