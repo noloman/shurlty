@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class NotifierMailer < ApplicationMailer
   default to: 'manulorenzop@gmail.com'
   # , from: 'contact@your-domain'

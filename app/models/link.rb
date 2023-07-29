@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Link < ApplicationRecord
   require 'addressable/uri'
   validates_presence_of :url, :slug
@@ -10,7 +12,7 @@ class Link < ApplicationRecord
   end
 
   def generate_slug
-    slug = SecureRandom.uuid[0..5] if self.slug.nil? || self.slug.empty?
+    SecureRandom.uuid[0..5] if slug.nil? || slug.empty?
   end
 
   # the API

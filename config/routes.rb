@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
   get 'home/index', as: :home
   get  '/l/:slug', to: 'links#show', as: :short

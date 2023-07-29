@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class ContactFormController < ApplicationController
   def create
     @name = params[:contact_form][:name]

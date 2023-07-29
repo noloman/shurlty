@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class AddNotNullSlugToLinksTable < ActiveRecord::Migration[7.0]
   def change
     change_column :links, :slug, :string, null: false
