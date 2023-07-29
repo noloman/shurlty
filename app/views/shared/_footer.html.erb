@@ -1,10 +1,15 @@
-<footer class="fixed inset-x-0 bottom-0 p-5 footer-center bg-neutral text-neutral-content">
+<footer class="fixed inset-x-0 bottom-0 p-10 footer bg-neutral text-neutral-content">
   <div>
+    <span class="footer-title">About the developer</span>
     <a class="link link-hover" href="https://www.github.com/noloman" target="_blank"
 >Github</a>
     <a class="link link-hover" href="https://www.linkedin.com/in/manulorenzo" target="_blank"
 >LinkedIn</a>
     <a class="link link-hover" href="https://www.manulorenzo.me" target="_blank"
 >Developer's website</a>
+  </div>
+  <div>
+    <span class="footer-title">Legal</span>
+    <%= link_to 'Privacy policy', privacy_policy_path, class: 'link link-hover', target: '_blank' %>
   </div>
 </footer>
