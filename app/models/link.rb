@@ -6,7 +6,7 @@ class Link < ApplicationRecord
   before_validation :generate_slug
 
   def short
-    LinksHelper::LinksHelper.short_url(slug: self.slug, host: Addressable::URI.parse(self.url).host)
+    LinksHelper::LinksHelper.short_url(slug:, host: Addressable::URI.parse(url).host)
   end
 
   def generate_slug
@@ -15,10 +15,10 @@ class Link < ApplicationRecord
 
   # the API
   def self.shorten(url, slug = '')
-    link = Link.where(url: url, slug: slug).first
+    link = Link.where(url:, slug:).first
     return link.short if link
 
-    link = Link.new(url: url, slug: slug)
+    link = Link.new(url:, slug:)
     return link.short if link.save
 
     Link.shorten(url, slug + SecureRandom.uuid[0..2])

@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'home/index'
+  get 'home/index', as: :home
   get  '/l/:slug', to: 'links#show', as: :short
   post '/shortify', to: 'links#create', as: :new_link
   match '/404', to: 'errors#not_found', via: :all
