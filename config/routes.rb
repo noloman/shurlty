@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   root to: 'home#index'
   get '/privacy_policy', to: redirect('/privacy_policy.html'), as: :privacy_policy
   resources :links
+  resources :contact_form, only: %i[new create]
 end
