@@ -10,10 +10,10 @@ class LinksController < ApplicationController
     @link.slug = @link.generate_slug
     if @link.valid?
       @link.save!
-      flash[:notice] = "Link successfully shortened"
+      flash[:notice] = 'Link successfully shortened'
       redirect_to short_url(@link.slug)
     else
-      redirect_to root_path, alert: "Error generating shortened link"
+      redirect_to root_path, alert: 'Error generating shortened link'
     end
   end
 end
