@@ -9,9 +9,11 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    <script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
   </head>
   <body>
     <main class="container mx-auto px-5">
+      <%= render "shared/navbar" %>
       <%= render "shared/flash" %>
       <%= yield %>
       <%= render "shared/footer" %>

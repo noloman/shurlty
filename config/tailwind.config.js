@@ -1,6 +1,10 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
+const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
+  darkMode: 'class',
+  daisyui: {
+    themes: ['light', 'dark'],
+  },
   content: [
     './public/*.html',
     './app/helpers/**/*.rb',
