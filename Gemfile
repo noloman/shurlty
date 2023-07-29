@@ -47,8 +47,11 @@ gem 'bootsnap', require: false
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
-  gem 'debug', platforms: %i[ mri mingw x64_mingw ]
+  gem 'debase', '~> 0.2.5.beta2', require: false
+  gem 'debug', platforms: %i[mri mingw x64_mingw]
   gem 'rspec-rails', '~> 6.0.0'
+  gem 'ruby-debug-ide', require: false
+  gem 'solargraph', require: false
 end
 
 group :development do
@@ -63,4 +66,4 @@ group :development do
   gem 'addressable'
 end
 
-gem "tailwindcss-rails", "~> 2.0"
+gem 'tailwindcss-rails', '~> 2.0'
