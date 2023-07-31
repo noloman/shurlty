@@ -59,6 +59,7 @@ jobs:
       - name: Install brakeman
         run: |
           gem install brakeman
+          bundle install
           bundle binstubs brakeman
           guard init brakeman
       - name: brakeman report
