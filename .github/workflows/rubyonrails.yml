@@ -60,6 +60,7 @@ jobs:
         run: |
           gem install brakeman
           bundle binstubs brakeman
+          guard init brakeman
       - name: brakeman report
         run: |
           bin/brakeman -f json > tmp/brakeman.json || exit 0
