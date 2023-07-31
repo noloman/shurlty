@@ -56,6 +56,17 @@ jobs:
           bundle install
           bundle binstubs bundler-audit
           bin/bundler-audit --update
+      - name: Install brakeman
+        run: |
+          gem install brakeman -v 4.5.0
+      - name: brakeman report
+        run: |
+          brakeman -f json > tmp/brakeman.json || exit 0
+      - name: Brakeman linter
+        uses: devmasx/brakeman-linter-action@v1.0.0
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          REPORT_PATH: tmp/brakeman.json
       - name: Security audit application code
         run: bin/brakeman -q -w2
       - name: Lint Ruby files
