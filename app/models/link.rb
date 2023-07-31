@@ -12,7 +12,7 @@ class Link < ApplicationRecord
   end
 
   def generate_slug
-    SecureRandom.uuid[0..5] if slug.nil? || slug.empty?
+    self.slug = SecureRandom.uuid[0..5] if slug.nil? || slug.empty?
   end
 
   # the API
