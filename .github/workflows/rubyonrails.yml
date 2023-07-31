@@ -48,10 +48,26 @@ jobs:
       - name: Install Ruby and gems
         uses: ruby/setup-ruby@250fcd6a742febb1123a77a841497ccaa8b9e939 # v1.152.0
         with:
+          ruby-version: '3.2.2'
           bundler-cache: true
       # Add or replace any other lints here
       - name: Security audit dependencies
-        run: bin/bundler-audit --update
+        run: |
+          bundle install
+          bundle binstubs bundler-audit
+          bin/bundler-audit --update
+      - name: Install brakeman
+        run: |
+          gem install brakeman
+          bundle binstubs brakeman
+      - name: brakeman report
+        run: |
+          bin/brakeman -f json > tmp/brakeman.json || exit 0
+      - name: Brakeman linter
+        uses: devmasx/brakeman-linter-action@v1.0.0
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          REPORT_PATH: tmp/brakeman.json
       - name: Security audit application code
         run: bin/brakeman -q -w2
       - name: Lint Ruby files

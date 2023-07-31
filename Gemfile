@@ -67,3 +67,7 @@ group :development do
 end
 
 gem 'tailwindcss-rails', '~> 2.0'
+
+gem 'bundler-audit', require: false
+
+gem 'ruby_audit', require: false
