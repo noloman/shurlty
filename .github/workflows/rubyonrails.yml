@@ -70,7 +70,7 @@ jobs:
       - name: Lint Ruby files
         run: bin/rubocop --parallel
       - name: Create Coverage Artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: code-coverage
-        path: coverage/
+        uses: actions/upload-artifact@v2
+        with:
+          name: code-coverage
+          path: coverage/
