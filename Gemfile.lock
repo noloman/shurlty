@@ -302,6 +302,7 @@ PLATFORMS
 DEPENDENCIES
   addressable
   bootsnap
+  brakeman
   bundler-audit
   debug
   guard-brakeman
