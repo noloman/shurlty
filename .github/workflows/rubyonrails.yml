@@ -59,6 +59,7 @@ jobs:
       - name: Install brakeman
         run: |
           gem install brakeman -v 4.5.0
+          bundle binstubs brakeman
       - name: brakeman report
         run: |
           brakeman -f json > tmp/brakeman.json || exit 0
