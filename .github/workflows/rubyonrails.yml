@@ -44,10 +44,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Brakeman
-        uses: GaboFDC/brakeman-linter-action@v1.1.0
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - name: Brakeman code scanning
+        uses: standardnotes/brakeman-action@v1.0.0
+        with:
+          options: "--color -q"
       - name: Install Ruby and gems
         uses: ruby/setup-ruby@250fcd6a742febb1123a77a841497ccaa8b9e939 # v1.152.0
         with:
