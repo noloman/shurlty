@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
+# app/models/Link
 class Link < ApplicationRecord
-  require 'addressable/uri'
+  require 'uri'
+  require 'digest'
   validates_presence_of :url, :slug
   validates_uniqueness_of :slug
   validates :url, format: URI::DEFAULT_PARSER.make_regexp(%w[http https])
@@ -12,17 +14,6 @@ class Link < ApplicationRecord
   end
 
   def generate_slug
-    self.slug = SecureRandom.uuid[0..5] if slug.nil? || slug.empty?
-  end
-
-  # the API
-  def self.shorten(url, slug = '')
-    link = Link.where(url:, slug:).first
-    return link.short if link
-
-    link = Link.new(url:, slug:)
-    return link.short if link.save
-
-    Link.shorten(url, slug + SecureRandom.uuid[0..2])
+    self.slug = Digest::SHA1.hexdigest(url).slice(0..5) if slug.nil? || slug.empty?
   end
 end
