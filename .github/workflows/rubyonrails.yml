@@ -4,12 +4,12 @@
 #
 # This workflow will install a prebuilt Ruby version, install dependencies, and
 # run tests and linters.
-name: "Ruby on Rails CI"
+name: 'Ruby on Rails CI'
 on:
   push:
-    branches: [ "main" ]
+    branches: ['main']
   pull_request:
-    branches: [ "main" ]
+    branches: ['main']
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -17,14 +17,14 @@ jobs:
       postgres:
         image: postgres:15-alpine
         ports:
-          - "5432:5432"
+          - '5432:5432'
         env:
           POSTGRES_DB: rails_test
           POSTGRES_USER: rails
           POSTGRES_PASSWORD: password
     env:
       RAILS_ENV: test
-      DATABASE_URL: "postgres://rails:password@localhost:5432/rails_test"
+      DATABASE_URL: 'postgres://rails:password@localhost:5432/rails_test'
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -45,6 +45,10 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+      - name: Brakeman
+        uses: devmasx/brakeman-linter-action@v1.0.0
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - name: Install Ruby and gems
         uses: ruby/setup-ruby@250fcd6a742febb1123a77a841497ccaa8b9e939 # v1.152.0
         with:
@@ -64,14 +68,6 @@ jobs:
           bundle update
           bundle binstubs brakeman
           guard init brakeman
-      - name: brakeman report
-        run: |
-          bin/brakeman -f json > tmp/brakeman.json || exit 0
-      - name: Brakeman linter
-        uses: devmasx/brakeman-linter-action@v1.0.0
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          REPORT_PATH: tmp/brakeman.json
       - name: Security audit application code
         run: bin/brakeman -q -w2
       - name: Lint Ruby files
