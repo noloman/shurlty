@@ -45,7 +45,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Brakeman
-        uses: devmasx/brakeman-linter-action@v1.0.0
+        uses: GaboFDC/brakeman-linter-action@v1.1.0
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - name: Install Ruby and gems
