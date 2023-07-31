@@ -54,6 +54,10 @@ group :development, :test do
   gem 'solargraph', require: false
 end
 
+group :test do
+  gem 'simplecov', require: false
+end
+
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem 'guard-brakeman'
