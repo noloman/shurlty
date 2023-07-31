@@ -58,11 +58,11 @@ jobs:
           bin/bundler-audit --update
       - name: Install brakeman
         run: |
-          gem install brakeman -v 4.5.0
+          gem install brakeman
           bundle binstubs brakeman
       - name: brakeman report
         run: |
-          brakeman -f json > tmp/brakeman.json || exit 0
+          bin/brakeman -f json > tmp/brakeman.json || exit 0
       - name: Brakeman linter
         uses: devmasx/brakeman-linter-action@v1.0.0
         env:
