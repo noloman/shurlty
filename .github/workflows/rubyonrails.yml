@@ -57,11 +57,6 @@ jobs:
           bundle install
           bundle binstubs bundler-audit
           bin/bundler-audit --update
-      - name: Install brakeman
-        run: |
-          bundle install
-          bundle binstubs brakeman
-          guard init brakeman
       - name: Security audit application code
         run: bin/brakeman -q -w2
       - name: Lint Ruby files
