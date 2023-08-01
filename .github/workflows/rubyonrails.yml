@@ -55,14 +55,11 @@ jobs:
       - name: Security audit dependencies
         run: |
           bundle install
-          bundle update
           bundle binstubs bundler-audit
           bin/bundler-audit --update
       - name: Install brakeman
         run: |
-          gem install brakeman
           bundle install
-          bundle update
           bundle binstubs brakeman
           guard init brakeman
       - name: Security audit application code
