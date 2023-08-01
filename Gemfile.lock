@@ -312,6 +312,7 @@ DEPENDENCIES
   brakeman
   bundler-audit
   debug
+  guard
   guard-brakeman
   jsbundling-rails
   pg (~> 1.1)
