@@ -59,8 +59,8 @@ jobs:
           bin/bundler-audit --update
       - name: Security audit application code
         run: bin/brakeman -q -w2
-      - name: Lint Ruby files
-        run: bin/rubocop --parallel
+      - name: Rubocop checks
+        uses: gimenete/rubocop-action@1.0
       - name: Create Coverage Artifact
         uses: actions/upload-artifact@v3
         with:
