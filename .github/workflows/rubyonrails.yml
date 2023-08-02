@@ -59,8 +59,10 @@ jobs:
           bin/bundler-audit --update
       - name: Security audit application code
         run: bin/brakeman -q -w2
-      - name: Rubocop checks
-        uses: gimenete/rubocop-action@1.0
+      - name: RuboCop Linter Action
+        uses: andrewmcodes/rubocop-linter-action@v3.3.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create Coverage Artifact
         uses: actions/upload-artifact@v3
         with:
