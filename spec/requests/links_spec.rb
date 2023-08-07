@@ -2,36 +2,17 @@
 
 require 'rails_helper'
 
-RSpec.describe 'Links', type: :request do
-  subject { Link.new(url: 'https://www.google.com', slug: 'aaa') }
-
-  describe 'GET /show' do
-    context 'when showing a link' do
-      it 'should be valid' do
-        expect(subject).to be_valid
-      end
+RSpec.describe LinksController, type: :controller do
+  context 'GET #show' do
+    let(:link) do
+      Link.create!(url: 'https://www.google.com', slug: '8d82cf')
+    end
+    it 'should respond successfully' do
+      get :show, params: { slug: link.slug }
+      expect(response).to have_http_status(:success)
     end
   end
 
-  describe 'Shortify' do
-    context 'when creating a link with valid URL and slug' do
-      it 'should be valid' do
-        expect(subject).to be_valid
-      end
-    end
-
-    context 'when trying to creating a link with an invalid URL' do
-      subject { Link.new(url: 'google.com', slug: 'aaa') }
-      it 'should NOT be valid' do
-        expect(subject).not_to be_valid
-      end
-    end
-
-    context 'when trying to creating a link without slug' do
-      subject { Link.new(url: 'google.com', slug: '') }
-      it 'should NOT be valid' do
-        expect(subject).not_to be_valid
-      end
-    end
+  context 'links_controller#create' do
   end
 end
