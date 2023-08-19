@@ -316,7 +316,7 @@ DEPENDENCIES
   guard-brakeman
   jsbundling-rails
   pg (~> 1.1)
-  puma (~> 6.0)
+  puma (~> 6.3)
   rails (~> 7.0.6)
   rspec-rails (~> 6.0.0)
   ruby_audit
