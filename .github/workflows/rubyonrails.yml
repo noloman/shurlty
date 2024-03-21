@@ -67,7 +67,7 @@ jobs:
       - name: Security audit application code
         run: bin/brakeman -q -w2
       - name: Create Coverage Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: code-coverage
           path: coverage/
