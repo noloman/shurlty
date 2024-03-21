@@ -72,7 +72,7 @@ GEM
     backport (1.2.0)
     benchmark (0.3.0)
     bindex (0.8.1)
-    bootsnap (1.16.0)
+    bootsnap (1.18.3)
       msgpack (~> 1.2)
     brakeman (6.1.2)
       racc
