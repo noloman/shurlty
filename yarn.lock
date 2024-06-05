@@ -4,117 +4,117 @@
 
 "@esbuild/aix-ppc64@0.21.2":
   version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@esbuild/aix-ppc64/-/aix-ppc64-0.21.2.tgz#7ccd2a552dc4eb740f094a46d18a1b1508b8d37c"
+  resolved "https://registry.npmjs.org/@esbuild/aix-ppc64/-/aix-ppc64-0.21.2.tgz"
   integrity sha512-/c7hocx0pm14bHQlqUVKmxwdT/e5/KkyoY1W8F9lk/8CkE037STDDz8PXUP/LE6faj2HqchvDs9GcShxFhI78Q==
 
 "@esbuild/android-arm64@0.21.2":
   version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@esbuild/android-arm64/-/android-arm64-0.21.2.tgz#016abbee9f0c6f646b0c6b43b172a5053fe53aab"
+  resolved "https://registry.npmjs.org/@esbuild/android-arm64/-/android-arm64-0.21.2.tgz"
   integrity sha512-SGZKngoTWVUriO5bDjI4WDGsNx2VKZoXcds+ita/kVYB+8IkSCKDRDaK+5yu0b5S0eq6B3S7fpiEvpsa2ammlQ==
 
 "@esbuild/android-arm@0.21.2":
   version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@esbuild/android-arm/-/android-arm-0.21.2.tgz#99f3a3c90bf8ac37d1881af6b87d404a02007164"
+  resolved "https://registry.npmjs.org/@esbuild/android-arm/-/android-arm-0.21.2.tgz"
   integrity sha512-G1ve3b4FeyJeyCjB4MX1CiWyTaIJwT9wAYE+8+IRA53YoN/reC/Bf2GDRXAzDTnh69Fpl+1uIKg76DiB3U6vwQ==
 
 "@esbuild/android-x64@0.21.2":
   version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@esbuild/android-x64/-/android-x64-0.21.2.tgz#5039e8d0b2ed03ca75d77e581ead591b1d87826f"
+  resolved "https://registry.npmjs.org/@esbuild/android-x64/-/android-x64-0.21.2.tgz"
   integrity sha512-1wzzNoj2QtNkAYwIcWJ66UTRA80+RTQ/kuPMtEuP0X6dp5Ar23Dn566q3aV61h4EYrrgGlOgl/HdcqN/2S/2vg==
 
 "@esbuild/darwin-arm64@0.21.2":
   version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@esbuild/darwin-arm64/-/darwin-arm64-0.21.2.tgz#6f55b81878d2295d7d4ecdbbb5ee418d379fb49a"
+  resolved "https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.21.2.tgz"
   integrity sha512-ZyMkPWc5eTROcLOA10lEqdDSTc6ds6nuh3DeHgKip/XJrYjZDfnkCVSty8svWdy+SC1f77ULtVeIqymTzaB6/Q==
 
 "@esbuild/darwin-x64@0.21.2":
   version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@esbuild/darwin-x64/-/darwin-x64-0.21.2.tgz#f295d838c60e0e068c7a91e7784674c6b06c358e"
+  resolved "https://registry.npmjs.org/@esbuild/darwin-x64/-/darwin-x64-0.21.2.tgz"
   integrity sha512-K4ZdVq1zP9v51h/cKVna7im7G0zGTKKB6bP2yJiSmHjjOykbd8DdhrSi8V978sF69rkwrn8zCyL2t6I3ei6j9A==
 
 "@esbuild/freebsd-arm64@0.21.2":
   version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@esbuild/freebsd-arm64/-/freebsd-arm64-0.21.2.tgz#f665703471824e67ff5f62e6c9ed298f3c363b1b"
+  resolved "https://registry.npmjs.org/@esbuild/freebsd-arm64/-/freebsd-arm64-0.21.2.tgz"
   integrity sha512-4kbOGdpA61CXqadD+Gb/Pw3YXamQGiz9mal/h93rFVSjr5cgMnmJd/gbfPRm+3BMifvnaOfS1gNWaIDxkE2A3A==
 
 "@esbuild/freebsd-x64@0.21.2":
   version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@esbuild/freebsd-x64/-/freebsd-x64-0.21.2.tgz#6493aa56760521125badd41f78369f18c49e367e"
+  resolved "https://registry.npmjs.org/@esbuild/freebsd-x64/-/freebsd-x64-0.21.2.tgz"
   integrity sha512-ShS+R09nuHzDBfPeMUliKZX27Wrmr8UFp93aFf/S8p+++x5BZ+D344CLKXxmY6qzgTL3mILSImPCNJOzD6+RRg==
 
 "@esbuild/linux-arm64@0.21.2":
   version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@esbuild/linux-arm64/-/linux-arm64-0.21.2.tgz#beb96b83bfe32630d34eedc09b8e0722819f1a5b"
+  resolved "https://registry.npmjs.org/@esbuild/linux-arm64/-/linux-arm64-0.21.2.tgz"
   integrity sha512-Hdu8BL+AmO+eCDvvT6kz/fPQhvuHL8YK4ExKZfANWsNe1kFGOHw7VJvS/FKSLFqheXmB3rTF3xFQIgUWPYsGnA==
 
 "@esbuild/linux-arm@0.21.2":
   version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@esbuild/linux-arm/-/linux-arm-0.21.2.tgz#b1c5176479397b34c36334218063e223b4e588dd"
+  resolved "https://registry.npmjs.org/@esbuild/linux-arm/-/linux-arm-0.21.2.tgz"
   integrity sha512-nnGXjOAv+7cM3LYRx4tJsYdgy8dGDGkAzF06oIDGppWbUkUKN9SmgQA8H0KukpU0Pjrj9XmgbWqMVSX/U7eeTA==
 
 "@esbuild/linux-ia32@0.21.2":
   version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@esbuild/linux-ia32/-/linux-ia32-0.21.2.tgz#8ce387793eccdc28f5964e19f4dcbdb901099be4"
+  resolved "https://registry.npmjs.org/@esbuild/linux-ia32/-/linux-ia32-0.21.2.tgz"
   integrity sha512-m73BOCW2V9lcj7RtEMi+gBfHC6n3+VHpwQXP5offtQMPLDkpVolYn1YGXxOZ9hp4h3UPRKuezL7WkBsw+3EB3Q==
 
 "@esbuild/linux-loong64@0.21.2":
   version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@esbuild/linux-loong64/-/linux-loong64-0.21.2.tgz#c7360523a8e5e04e0b76b6e9a89a91ba573ac613"
+  resolved "https://registry.npmjs.org/@esbuild/linux-loong64/-/linux-loong64-0.21.2.tgz"
   integrity sha512-84eYHwwWHq3myIY/6ikALMcnwkf6Qo7NIq++xH0x+cJuUNpdwh8mlpUtRY+JiGUc60yu7ElWBbVHGWTABTclGw==
 
 "@esbuild/linux-mips64el@0.21.2":
   version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@esbuild/linux-mips64el/-/linux-mips64el-0.21.2.tgz#0adac2cc3451c25817b0c93bf160cd19008ed03a"
+  resolved "https://registry.npmjs.org/@esbuild/linux-mips64el/-/linux-mips64el-0.21.2.tgz"
   integrity sha512-9siSZngT0/ZKG+AH+/agwKF29LdCxw4ODi/PiE0F52B2rtLozlDP92umf8G2GPoVV611LN4pZ+nSTckebOscUA==
 
 "@esbuild/linux-ppc64@0.21.2":
   version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@esbuild/linux-ppc64/-/linux-ppc64-0.21.2.tgz#d9e79563999288d367eeba2b8194874bef0e8a35"
+  resolved "https://registry.npmjs.org/@esbuild/linux-ppc64/-/linux-ppc64-0.21.2.tgz"
   integrity sha512-y0T4aV2CA+ic04ULya1A/8M2RDpDSK2ckgTj6jzHKFJvCq0jQg8afQQIn4EM0G8u2neyOiNHgSF9YKPfuqKOVw==
 
 "@esbuild/linux-riscv64@0.21.2":
   version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@esbuild/linux-riscv64/-/linux-riscv64-0.21.2.tgz#34227910d843b399447a48180381425529eae7d6"
+  resolved "https://registry.npmjs.org/@esbuild/linux-riscv64/-/linux-riscv64-0.21.2.tgz"
   integrity sha512-x5ssCdXmZC86L2Li1qQPF/VaC4VP20u/Zm8jlAu9IiVOVi79YsSz6cpPDYZl1rfKSHYCJW9XBfFCo66S5gVPSA==
 
 "@esbuild/linux-s390x@0.21.2":
   version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@esbuild/linux-s390x/-/linux-s390x-0.21.2.tgz#2835f5b9b4c961baf6d6f03a870ab2d5bc3fbfcc"
+  resolved "https://registry.npmjs.org/@esbuild/linux-s390x/-/linux-s390x-0.21.2.tgz"
   integrity sha512-NP7fTpGSFWdXyvp8iAFU04uFh9ARoplFVM/m+8lTRpaYG+2ytHPZWyscSsMM6cvObSIK2KoPHXiZD4l99WaxbQ==
 
 "@esbuild/linux-x64@0.21.2":
   version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@esbuild/linux-x64/-/linux-x64-0.21.2.tgz#756282185a936e752a3a80b227a950813fe62ee7"
+  resolved "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.21.2.tgz"
   integrity sha512-giZ/uOxWDKda44ZuyfKbykeXznfuVNkTgXOUOPJIjbayJV6FRpQ4zxUy9JMBPLaK9IJcdWtaoeQrYBMh3Rr4vQ==
 
 "@esbuild/netbsd-x64@0.21.2":
   version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@esbuild/netbsd-x64/-/netbsd-x64-0.21.2.tgz#e1dde3694f5f8fbf2f7696d021c026e601579167"
+  resolved "https://registry.npmjs.org/@esbuild/netbsd-x64/-/netbsd-x64-0.21.2.tgz"
   integrity sha512-IeFMfGFSQfIj1d4XU+6lkbFzMR+mFELUUVYrZ+jvWzG4NGvs6o53ReEHLHpYkjRbdEjJy2W3lTekTxrFHW7YJg==
 
 "@esbuild/openbsd-x64@0.21.2":
   version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@esbuild/openbsd-x64/-/openbsd-x64-0.21.2.tgz#b0a8c1ce0077a5b24c5e4cf1c4417128ae5b6489"
+  resolved "https://registry.npmjs.org/@esbuild/openbsd-x64/-/openbsd-x64-0.21.2.tgz"
   integrity sha512-48QhWD6WxcebNNaE4FCwgvQVUnAycuTd+BdvA/oZu+/MmbpU8pY2dMEYlYzj5uNHWIG5jvdDmFXu0naQeOWUoA==
 
 "@esbuild/sunos-x64@0.21.2":
   version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@esbuild/sunos-x64/-/sunos-x64-0.21.2.tgz#fc7dd917ffcb2ebab4f22728a23ece3dd36c2979"
+  resolved "https://registry.npmjs.org/@esbuild/sunos-x64/-/sunos-x64-0.21.2.tgz"
   integrity sha512-90r3nTBLgdIgD4FCVV9+cR6Hq2Dzs319icVsln+NTmTVwffWcCqXGml8rAoocHuJ85kZK36DCteii96ba/PX8g==
 
 "@esbuild/win32-arm64@0.21.2":
   version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@esbuild/win32-arm64/-/win32-arm64-0.21.2.tgz#251e4cdafae688d54a43ac8544cb8c71e8fcdf15"
+  resolved "https://registry.npmjs.org/@esbuild/win32-arm64/-/win32-arm64-0.21.2.tgz"
   integrity sha512-sNndlsBT8OeE/MZDSGpRDJlWuhjuUz/dn80nH0EP4ZzDUYvMDVa7G87DVpweBrn4xdJYyXS/y4CQNrf7R2ODXg==
 
 "@esbuild/win32-ia32@0.21.2":
   version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@esbuild/win32-ia32/-/win32-ia32-0.21.2.tgz#1e3a818791b7e93ed353901c83d7cdc901ffcc8a"
+  resolved "https://registry.npmjs.org/@esbuild/win32-ia32/-/win32-ia32-0.21.2.tgz"
   integrity sha512-Ti2QChGNFzWhUNNVuU4w21YkYTErsNh3h+CzvlEhzgRbwsJ7TrWQqRzW3bllLKKvTppuF3DJ3XP1GEg11AfrEQ==
 
 "@esbuild/win32-x64@0.21.2":
   version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.21.2.tgz#825b4e7c89b7e7ec64c450ed494a8af7e405a84d"
+  resolved "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.21.2.tgz"
   integrity sha512-VEfTCZicoZnZ6sGkjFPGRFFJuL2fZn2bLhsekZl1CJslflp2cJS/VoKs1jMk+3pDfsGW6CfQVUckP707HwbXeQ==
 
 "@hotwired/stimulus@^3.2.1":
@@ -142,12 +142,12 @@
 
 camelcase-css@^2.0.1:
   version "2.0.1"
-  resolved "https://registry.npmjs.org/camelcase-css/-/camelcase-css-2.0.1.tgz"
+  resolved "https://registry.yarnpkg.com/camelcase-css/-/camelcase-css-2.0.1.tgz#ee978f6947914cc30c6b44741b6ed1df7f043fd5"
   integrity sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==
 
 css-selector-tokenizer@^0.8:
   version "0.8.0"
-  resolved "https://registry.npmjs.org/css-selector-tokenizer/-/css-selector-tokenizer-0.8.0.tgz"
+  resolved "https://registry.yarnpkg.com/css-selector-tokenizer/-/css-selector-tokenizer-0.8.0.tgz#88267ef6238e64f2215ea2764b3e2cf498b845dd"
   integrity sha512-Jd6Ig3/pe62/qe5SBPTN8h8LeUg/pT4lLgtavPf7updwwHpvFzxvOQBHYj2LZDMjUnBzgvIUSjRcf6oT5HzHFg==
   dependencies:
     cssesc "^3.0.0"
@@ -155,27 +155,27 @@ css-selector-tokenizer@^0.8:
 
 cssesc@^3.0.0:
   version "3.0.0"
-  resolved "https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz"
+  resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
   integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
 
 culori@^3:
   version "3.3.0"
-  resolved "https://registry.npmjs.org/culori/-/culori-3.3.0.tgz"
+  resolved "https://registry.yarnpkg.com/culori/-/culori-3.3.0.tgz#e33530adbd124d53bd6550394397e695eaaed739"
   integrity sha512-pHJg+jbuFsCjz9iclQBqyL3B2HLCBF71BwVNujUYEvCeQMvV97R59MNK3R2+jgJ3a1fcZgI9B3vYgz8lzr/BFQ==
 
-daisyui@^4.0.0:
-  version "4.11.1"
-  resolved "https://registry.npmjs.org/daisyui/-/daisyui-4.11.1.tgz"
-  integrity sha512-obT9CUbQdW6eoHwSeT5VwaRrWlwrM4OT5qlfdJ0oQlSIEYhwnEl2+L2fwu5PioLbitwuMdYC2X8I1cyy8Pf6LQ==
+daisyui@^4.12.2:
+  version "4.12.2"
+  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-4.12.2.tgz#9abdd513572502e7905f2aa12c5e958df417520e"
+  integrity sha512-ed3EFwPRLN+9+/MYPRB1pYjk6plRCBMobfBdSeB3voAS81KdL2pCKtbwJfUUpDdOnJ0F8T6oRdVX02P6UCD0Hg==
   dependencies:
     css-selector-tokenizer "^0.8"
     culori "^3"
     picocolors "^1"
     postcss-js "^4"
 
-esbuild@^0.21.2:
+esbuild@^0.21.0:
   version "0.21.2"
-  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.21.2.tgz#6a58b5aa6347eb9e96d060a44e7adaee21bc76c1"
+  resolved "https://registry.npmjs.org/esbuild/-/esbuild-0.21.2.tgz"
   integrity sha512-LmHPAa5h4tSxz+g/D8IHY6wCjtIiFx8I7/Q0Aq+NmvtoYvyMnJU0KQJcqB6QH30X9x/W4CemgUtPgQDZFca5SA==
   optionalDependencies:
     "@esbuild/aix-ppc64" "0.21.2"
@@ -204,17 +204,17 @@ esbuild@^0.21.2:
 
 fastparse@^1.1.2:
   version "1.1.2"
-  resolved "https://registry.npmjs.org/fastparse/-/fastparse-1.1.2.tgz"
+  resolved "https://registry.yarnpkg.com/fastparse/-/fastparse-1.1.2.tgz#91728c5a5942eced8531283c79441ee4122c35a9"
   integrity sha512-483XLLxTVIwWK3QTrMGRqUfUpoOs/0hbQrl2oz4J0pAcm3A3bu84wxTFqGqkJzewCLdME38xJLJAxBABfQT8sQ==
 
 picocolors@^1:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz"
-  integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.1.tgz#a8ad579b571952f0e5d25892de5445bcfe25aaa1"
+  integrity sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==
 
 postcss-js@^4:
   version "4.0.1"
-  resolved "https://registry.npmjs.org/postcss-js/-/postcss-js-4.0.1.tgz"
+  resolved "https://registry.yarnpkg.com/postcss-js/-/postcss-js-4.0.1.tgz#61598186f3703bab052f1c4f7d805f3991bee9d2"
   integrity sha512-dDLF8pEO191hJMtlHFPRa8xsizHaM82MLfNkUHdUtVEV3tgTp5oj+8qbEqYM57SLfc74KSbw//4SeJma2LRVIw==
   dependencies:
     camelcase-css "^2.0.1"
